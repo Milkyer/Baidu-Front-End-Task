@@ -1,0 +1,121 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+body {
+	background-color: lightgrey;
+}
+.header {
+    background-color: #303030;
+    height: 60px;
+    overflow: hidden;
+}
+.logo {
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.ul {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.ul li {
+	float: left;
+	margin-right: 20px;
+}
+.ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.ul li a:hover {
+	color: lightgrey;
+}
+.article {
+	width: 95%;
+	padding: 20px 10px 20px 10px;
+	border: 1px solid #F5F5F5;
+	background-color: white;
+	box-shadow: 3px 3px darkgrey;
+	margin-top: 40px;
+}
+article {
+	background-color: white;
+	width: 100%;
+}
+article dl {
+	margin-left: 20px;
+}
+article ol {
+	margin-left: 80px;
+}
+article h3 {
+	color: darkgrey;
+}
+article span {
+	font-size: 12px;
+	color: darkgrey;
+}
+figure {
+	border: 1px solid lightgrey;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+}
+table {
+    text-align: left;
+    width: 100%;
+}
+table th {
+	background-color: #303030;
+	color: white;
+}
+table .last {
+	background-color: lightgrey;
+}
+article .bar {
+	border-left: 3px solid darkgrey;
+	padding: 10px 10px 10px 10px;
+}
+.left {
+	margin: 15px 0;
+}
+.left span {
+	margin-left: 35%;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #aaa;
+}
+.tip {
+	float: left;
+    text-align: right;
+    width: 35%;
+    padding-right: 15px;
+}
+.left textarea {
+	width: 50%;
+    height: 100px;
+}
+.left .submit {
+    width: 100%;
+    border: 1px solid #128fdc;
+    background-color: #128fdc;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    height: 40px;
+}
+.footer {
+	height: 30px;
+	background-color: #303030;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+}

@@ -1,0 +1,33 @@
+* {
+	margin: 0 auto;
+	padding: 0px;
+}
+body {
+	height: 100%;
+	width: 100%;
+}
+.content {
+	background-color: #ccc;
+    width: 400px;
+    height: 200px;
+    position: absolute;    /*注意：垂直居中的绝对定位！*/
+    top: 50%;                /*transform-x*/
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -100px; 
+}
+.icon1 {
+	background-color: #fc0;
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    border-radius: 0 0 50px 0;  
+}
+.icon2 {
+	background-color: #fc0;
+    height: 50px;
+    width: 50px;
+    margin-right: 0px;
+    margin-top: 100px;
+    border-radius: 50px 0 0 0;      
+}
