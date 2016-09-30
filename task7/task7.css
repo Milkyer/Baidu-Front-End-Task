@@ -1,0 +1,619 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+.container {
+    width: 100%;
+    font-family: 'Microsoft YaHei';
+}
+a {
+	text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+header .hleft {
+    width: 10%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 60px;
+    background: url(images/task7_1.png) no-repeat left;
+}
+header .hleft h1 {
+    color: #4E3A4F;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+header nav {
+    width: 30%;
+    vertical-align: middle;  
+    position: relative;
+    left: 25%;
+}
+header nav ul {
+    width: 100%;
+    line-height: 60px;
+    list-style: none;
+    box-sizing: border-box;
+}
+header nav ul li {
+    display: inline-block;
+    width: 19%;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #534141;
+    cursor: pointer;
+}
+header nav ul li:hover {
+    color: #F04C57;
+}
+header .hright {
+    font-size: 14px;
+    width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    margin-left: 92%;
+    margin-top: -90px;
+    background: url(images/task7_2.png) no-repeat left;
+}
+header .hright a {
+	color: #534141;
+}
+header .hright a:hover {
+    width: 50px;
+    color: #E53C3C;
+}
+.section1 {
+    width: 100%;
+    height: 650px;
+    background-image: url(images/task7_3.png) no-repeat;
+    background-size: 100% auto;
+}
+.section1 .text {
+    position: absolute;
+    top: 270px;
+    left: 120px;
+}
+.section1 .text p {
+    font-size: 22px;
+    color: #fff;
+}
+.section1 .text p:first-child {
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.section1 .text p:last-of-type {
+    margin-bottom: 60px;
+}
+.section1 .text span {
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    background: #E53C3C;
+    cursor: pointer;
+}
+.section1 .text span:hover {
+    background: #E31212;
+    border-radius: 3px;
+}
+.section2 {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+.section2 .section2-div {
+    width: 25%;
+    float: left;
+}
+.section2 .section2-div .img {
+    width: 100%;
+    line-height: 130px;
+    text-align: center;
+}
+.section2 .section2-div .img img {
+    position: relative;
+    top: 30px;
+}
+.section2 .section2-div .word {
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+    color: #534141;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 2px solid #534141;
+    cursor: pointer;
+}
+.section2 .section2-div:last-child .word {
+    border: none;
+}
+.section3 {
+    width: 100%;
+    height: 400px;
+    background-color: #EDEAEA;
+    text-align: center;
+}
+.section3 .img {
+    position: relative;
+    top: 80px;
+}
+.section3 .text {
+    font-size: 50px;
+    color: #534141;
+    position: relative;
+    top: 100px;
+}
+.section4 {
+    width: 100%;
+    height: 300px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    background: url(images/task7_9.png);
+    background-size: cover;
+    /*保持图像本身的宽高比例，将图片缩放到正好完全覆盖定义背景的区域*/
+}
+.section4 .text p{
+    color: #fff;
+}
+.section4 .text p:first-child{
+    font-size: 22px;
+}
+.section4 .text p:last-child{
+    font-size: 13px;
+}
+.section4 .text span{
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-top: 10px;
+    border-top: 2px solid #fff;
+}
+  /*下拉列表的设置*/
+.section5{
+    width: 100%;
+    height: 500px;
+    background-color: #EDEAEA;
+    text-align: center;
+}
+.section5 .section5-div {
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+}
+.section5 .section5-div .img {
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.section5 .section5-div .img img {
+    height: 300px;
+    cursor: pointer;
+}
+.section5 .section5-div .word {
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+}
+.section5 .section5-div .word p:first-child {
+    font-size: 14px;
+    color: #44403F;
+}
+.section5 .section5-div .word p:last-child {
+    font-size: 12px;
+    color: #B3AFAC;
+    position: relative;
+    margin-top: 10px;
+}
+.section5 .section5-div:nth-child(2)>.word {
+    padding-top: 30px;
+}
+.section5 .section5-div:nth-child(2)>.word p:first-child{
+    font-size: 24px;
+    text-indent: 30px;    /*规定文本块中首行文本的缩进*/
+    letter-spacing: 30px;
+}
+.section6{
+    width: 100%;
+    height: 560px;
+}
+.section6 .left{
+    width: 68%;
+    height: 560px;
+    float: left;
+    position: relative;
+    background: url(images/task7_14.png) no-repeat;
+    background-size: cover;
+}
+.section6 .left .text{
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 130px;
+}
+.section6 .left .text p{
+    font-size: 30px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.section6 .left .text p:nth-child(1){
+    font-size: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+.section6 .left .text p:nth-child(2) {
+    font-size: 150px;
+    height: 150px;
+    line-height: 150px;
+}
+.section6 .right {
+    height: 560px;
+    margin-left: 68%;
+    text-align: center;
+}
+.section6 .right .content {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 130px;
+}
+.section6 .right .content .mes {
+    width: 300px;
+    height: 200px;
+}
+.section6 .right .content .point {
+	width: 50px;
+    height: 10px;
+    position: relative;
+    top: 100px;
+}
+.section6 .right .content .point span {
+	border-radius: 100%;
+	border: 1px solid black;
+	height: 8px;
+	width: 8px;
+	float: left;
+}
+.section6 .right .content .point span:last-child {
+	position: relative;
+	left: 15px;
+}
+.section6 .right .content .on {
+	background-color: grey;
+	position: relative;
+	right: 15px;
+}
+.section6 .right .content .mes p:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section6 .right .content .mes p:first-child>span{
+    color: #BE4F48;
+}
+.section6 .right .content .mes p:last-child{
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+    color: #B3AFAC;
+    margin-bottom: 60px;
+
+    transition: color 0.4s ease-in-out;
+}
+.section6 .right .content .button {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 35px;
+    border: 1px solid #BE4F48;
+    color: #BE4F48;
+    background-color: #fff;
+    cursor: pointer;
+    
+    transition: all 0.4s ease-in-out;
+}
+.section6 .right .content .button:hover{
+    color: #fff;
+    border-radius: 3px;
+    background-color: #BE4F48;
+}
+.section7{
+    width: 100%;
+    height: 520px;
+}
+.section7 .text{
+    width: 68%;
+    height: 520px;
+    float: left;
+    font-size: 0;
+}
+.section7 .text .text-div {
+    display: inline-block;
+    width: 50%;
+    height: 520px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.section7 .text .text-div:first-child{
+    background-color: #E84E4C;
+    color: #fff;
+}
+.section7 .text .text-div .mes{
+    position: relative;
+    top: 200px;
+    height: 100px;
+}
+.section7 .text .text-div .mes p{
+    line-height: 35px;
+}
+.section7 .text .text-div .mes span{
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+}
+.section7 .text .text-div:nth-of-type(1) .mes span{
+    border-top: 2px solid #fff;
+}
+.section7 .text .text-div:nth-of-type(2) .mes span{
+    border-top: 2px solid #ADADAD;
+}
+.section7 .text .text-div .button{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    top: 220px;
+    cursor: pointer;
+    border-radius: 0;
+
+    transition: all 0.4s ease-in-out;
+}
+.section7 .text .text-div:first-child .button{
+    border-color: #fff;
+}
+.section7 .text .text-div:first-child .button:hover{
+    color: #E84E4C;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.section7 .text .text-div:last-child .button{
+    border-color: #E84E4C;
+    color: #E84E4C;
+}
+.section7 .text .text-div:last-child .button:hover{
+    background-color: #E84E4C;
+    color: #fff;
+    border-radius: 3px;
+}
+.section7 .img {
+    height: 520px;
+    margin-left: 68%;
+    background: url(images/task7_15.png) no-repeat;
+    background-size: cover;
+}
+.section8{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.section8 .top{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.section8 .top .mes{
+    position: relative;
+    top: 100px;
+}
+.section8 .top .mes p{
+    margin: 0;
+}
+.section8 .top .mes p:nth-of-type(1){
+    font-size: 18px;
+}
+.section8 .top .mes p:nth-of-type(2){
+    font-size: 14px;
+    color: #B3AFAC;
+}
+.section8 .top .mes span {
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    border-top: 2px solid #E44F4B;
+}
+.section8 .left{
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+.section8 .left .mes{
+    width: 350px;
+    height: 130px;
+}
+.section8 .left .mes span{
+    font-size: 14px;
+    color: #B3AFAC;
+    float: right;
+    cursor: pointer;
+}
+.section8 .left .mes p:nth-of-type(1){
+    font-size: 16px;
+    color: #6C5C5C;
+}
+.section8 .left .mes p:nth-of-type(2){
+    font-size: 14px;
+    color: #B3AFAC;
+    margin-bottom: 0;
+}
+.section8 .right{
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    font-size: 0;
+}
+.section8 .right input[type="text"]{
+    height: 40px;
+    width: 300px;
+    font-size: 14px;
+    color: #4E3A4F;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+}
+.section8 .right textarea{
+    width: 620px;
+    height: 160px;
+    font-size: 14px;
+    color: #4E3A4F;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+    resize:none;
+}
+.section8 .right input[type="submit"]{
+    width: 620px;
+    height: 40px;
+    font-size: 14px;
+    color: #4E3A4F;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+}
+.section9{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: #33363F;
+}
+.section9 .mes{
+    width: 100%;
+    height: 150px;
+    color: #F7F8FC;
+    display: inline-block;
+    margin-top: 80px;
+}
+.section9 .mes p:first-child{
+    font-size: 20px;
+}
+.section9 .mes p:last-child{
+    font-size: 14px;
+}
+.section9 .text{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    font-size: 0;
+}
+.section9 .text input[type="email"]{
+    width: 500px;
+    height: 40px;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #75757F;
+}
+.section9 .text input[type="email"]:focus{
+    outline: 0;
+}
+.section9 .text input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 5px;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #75757F;
+}
+.section9 .icon {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+.section9 .icon i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #30303A;
+}
+footer .mes,footer .back {
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+}
+footer .mes {
+    float: left;
+}
+footer .mes span {
+    cursor: pointer;
+}
+footer .back {
+    float: right;
+}
+footer .back a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .back a:hover {
+    color: #75757F;
+}
