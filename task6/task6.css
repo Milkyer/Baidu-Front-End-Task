@@ -61,7 +61,6 @@ header span {
     width: 190px;
     height: 300px;
     opacity: 0.5;
-    filter: alpha(opacity:50);
     position: absolute;
     top: 0;
 }
